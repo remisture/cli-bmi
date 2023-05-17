@@ -1,13 +1,13 @@
 {
-	"name": "convrt",
-	"version": "0.0.7",
-	"description": "A CLI tool for easy conversion between kilos and pounds",
+	"name": "cli-bmi",
+	"version": "0.0.0",
+	"description": "A CLI tool for BMI calculation",
 	"main": "index.js",
 	"module": "index.js",
 	"type": "module",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/remisture/convrt"
+		"url": "https://github.com/remisture/cli-bmi"
 	},
 	"scripts": {
 		"prettier:check": "prettier --check --cache .",
@@ -17,17 +17,20 @@
 		"bump:patch": "npm version patch"
 	},
 	"bin": {
-		"convrt": "bin/convrt.js"
+		"bmi": "bin/bmi.js"
 	},
 	"keywords": [
 		"cli",
-		"lbs",
+		"bmi",
+		"calc",
+		"calculation",
+		"calculate",
 		"kgs",
 		"convert",
 		"kilos",
-		"pounds",
+		"weight",
 		"metric",
-		"imperial",
+		"height",
 		"javascript",
 		"node",
 		"nodejs"
