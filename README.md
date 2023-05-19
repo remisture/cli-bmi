@@ -1,5 +1,7 @@
 # cli-bmi
 
+![npm](https://img.shields.io/npm/dt/cli-bmi) ![npm](https://img.shields.io/npm/v/cli-bmi)
+
 A CLI tool for BMI calculation.
 
 ## Install
