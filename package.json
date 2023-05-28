@@ -18,7 +18,7 @@
 		"prettier:check": "prettier --check --cache .",
 		"prettier:write": "prettier --write --cache .",
 		"preversion": "npm run validate-code",
-		"test": "xo --prettier && ava"
+		"test": "xo --prettier && c8 ava"
 	},
 	"ava": {
 		"files": [
@@ -48,6 +48,7 @@
 	"license": "ISC",
 	"devDependencies": {
 		"ava": "^5.3.0",
+		"c8": "^7.13.0",
 		"prettier": "^2.8.7",
 		"xo": "^0.54.2"
 	},
