@@ -13,7 +13,7 @@ jobs:
               with:
                   node-version-file: '.nvmrc'
             - run: npm ci
-            - run: npm run check-format
+            - run: npm run validate-code
     publish-npm:
         needs: build
         runs-on: ubuntu-latest
