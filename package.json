@@ -53,7 +53,7 @@
 		"xo": "^0.56.0"
 	},
 	"dependencies": {
-		"@inquirer/input": "^1.0.8",
+		"@inquirer/input": "^2.0.0",
 		"boxen": "^7.0.2",
 		"chalk": "^5.2.0",
 		"clear": "^0.1.0",
