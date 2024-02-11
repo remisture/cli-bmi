@@ -6,7 +6,7 @@ import { logError } from './lib/utils.js';
 
 const run = async () => {
 	try {
-		const cliOptions = parseCliOptions();
+		const cliOptions = await parseCliOptions();
 		const height = await determineHeight(cliOptions);
 		const weight = await determineWeight(cliOptions);
 		printResults(height, weight);
